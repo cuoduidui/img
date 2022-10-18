@@ -1,0 +1,21 @@
+# Put the content into ${HOME}/.cargo/config
+
+[source.crates-io]
+
+registry = "https://github.com/rust-lang/crates.io-index"
+
+# replace with your favourite mirror
+
+replace-with = 'sjtu'
+
+[source.ustc]
+
+registry = "git://mirrors.ustc.edu.cn/crates.io-index"
+
+[source.sjtu]
+
+registry = "https://mirrors.sjtug.sjtu.edu.cn/git/crates.io-index"
+
+[source.rustcc]
+
+registry = "https://code.aliyun"
